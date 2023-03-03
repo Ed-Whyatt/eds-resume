@@ -1,5 +1,6 @@
 from flask import render_template
 from edsresume import app, db
+from edsresume.models import Users
 
 
 @app.route("/")
